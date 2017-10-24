@@ -7,6 +7,7 @@
 	font-family: Verdana;
     font-size: 14px;
     font-weight: bold;
+	border: 1px solid black;
 	}
 #headerRight {
 	display: flex;
@@ -27,7 +28,6 @@
 	margin-left: 2%;
 }
 
-}
 nav a:hover {
   color: orange;
 }
@@ -35,3 +35,83 @@ nav li {
 	display: inline-block;
 	margin-left: 30px;
 	}
+.main {
+	display: flex;
+	border: 1px solid red;
+	margin: 10px;
+}
+.large, 
+.medium, 
+.small {
+	display: flex;
+	border: 1px solid blue;
+	margin: 5px;
+}
+.large {
+	width: 630px;
+	flex-direction: column;
+}
+.medium {
+	width:300px;
+	flex-direction: column;
+}
+.small {
+	width: 240px;
+	flex-direction: column;
+}
+.mainStories {
+	border: 1px solid yellow;
+}
+#storyHead,
+#story3,
+#story5 {
+	display: flex;
+}
+#story1Head {
+	background-image: url("../img/main.png");
+	height: 300px;
+	color: white;
+	}
+
+#story3 {
+	background-image: url("../img/fall.png");
+	height: 240px;
+	color: white;
+}
+#story5 {
+	background-image: url("../img/dickhead.png");
+	height: 240px;
+	color: white;
+}
+.main p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+h2 {
+	font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+#story2 h2 , 
+#story4 h2,
+#col2_1 h2 ,
+#col3_2 h2 {
+	color: black;
+}
+#story1Head  h2 {
+	font-size: 40px;
+}
+#col2_2 {
+	background-image: url("../img/cat.png");
+	height: 200px;
+}
+#col3_1 {
+	border: 1px solid black;
+	background-image: url("../img/cookie.png");
+	height: 200px;
+	}
+#col3_2 {
+	border: 1px solid black;
+}
